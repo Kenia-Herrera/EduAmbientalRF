@@ -1,0 +1,66 @@
+/* Estilos para la barra de navegación */
+.bar {
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  color: #fff; /* Color del texto */
+  padding: 5px 5px; /* Espaciado interno */
+  position: fixed; /* Fijar la barra en la parte superior de la pantalla */
+  top: 0; /* Distancia desde la parte superior de la pantalla */
+  left: 0; /* Alinear a la izquierda */
+  width: 100%; /* Ancho completo */
+  z-index: 1000; /* Establecer una alta z-index para que esté por encima de otros elementos */
+}
+
+/* Estilos para los enlaces en la barra de navegación */
+.bar a {
+  color: #fff; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado de los enlaces */
+  margin: 0 10px; /* Margen entre enlaces */
+}
+
+/* Estilos para el logo en la barra de navegación */
+.bar .logo {
+  top: 50%; /* Centrar verticalmente */
+  left: 50px; /* Alinear a la izquierda con un margen de 20px */
+  width: 180px; /* Ancho del logo */
+  height: auto; /* Altura ajustada automáticamente */
+}
+
+/* styles.css */
+
+.pie {
+    background-color: #151735;
+    padding: 27px;
+    /*text-align: center;
+    
+    
+    /*  */
+    width: 100%;
+    height: 10px; /* Ajusta la altura según tus necesidades */
+    position: fixed; /* Fijar el pie de página */
+    bottom: 0; /* Fijar en la parte inferior de la ventana */
+    left: 0; /* Alinear a la izquierda */
+    
+    
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+   /* max-width: 50px; /* Ajusta el tamaño del logotipo */
+  /*  margin-right: 10px;*/
+  top: 50%; /* Centrar verticalmente */
+  left: 40px; /* Alinear a la izquierda con un margen de 20px */
+  width: 60px; /* Ancho del logo */
+  height: auto; /* Altura ajustada automáticamente */
+}
+
+p {
+    text-align: left;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+div#titulo{color:#000; font-size:30px; font-weight:bold; text-shadow:1px 1px 8px #00e800, -1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;}

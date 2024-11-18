@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="css/rompe.css">
+    <link rel="stylesheet" href="css/bar&foot.css">
+    <link rel="stylesheet" href="css/juego.css">
+    <!--  -->
+    <link rel="shortcut icon" href="images/icon.png" type="image/png">
+    
+  </head>
+  <body style="background-image: url('images/bass.jpg');" >
+      <nav class="bar">
+          <a href="index.html">  <img src="images/Logo.jpg" alt="Logo" class="logo">  </a>
+  
+  <!-- Otros enlaces -->
+</nav>
+
+    
+      <body onload="comprobarnavegador();">
+	<header>
+		<h1></h1>
+	</header>
+          <!--  -->
+          <div  class="col-40">       
+      <div id="titulo">
+        <h1>¡No más basura en la calle!</h1>
+      </div>
+      <div id="instrucciones">
+        <h2>Instrucciones</h2>
+        <ul id="lista-instrucciones">
+      
+        </ul>
+      </div>
+      <div id="objetivo">
+        <h2>Objetivo</h2>
+        <div class="texto-centrado">
+          <img class="imagen-objetivo" src="images/nobasura.png" alt="Pokachu">
+        </div>
+      </div>
+      
+      </div>
+          <div class="col-60">
+              <h1>¡La basura se tira en los botes de basura!🥺</h1>
+              <br>              
+              
+      <div id="juego">
+          <section id="contenedorPuzzle">
+		<div id="contenedorPiezas" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)">
+			<img id="pieza3" src="images/p3.jpg" alt="pieza3" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+			<img id="pieza2" src="images/p2.jpg" alt="pieza2" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+			<img id="pieza4" src="images/p4.jpg" alt="pieza4" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+			<img id="pieza1" src="images/p1.jpg" alt="pieza1" draggable="true" ondragstart="start(event)" ondragend="end(event)">
+		</div>
+		<div id="puzzle">
+			<div class="contenedorPieza" id="uno" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="contenedorPieza" id="dos" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="contenedorPieza" id="tres" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+			<div class="contenedorPieza" id="cuatro" ondragenter="return enter(event)" ondragover="return over(event)" ondrop="return drop(event)"></div>
+		</div>	
+	</section>
+          
+      </div>
+    </div>
+
+	
+      
+<footer>
+     
+    
+        <div class="pie">
+            <a href="http://www.cutonala.udg.mx/">   <img src="images/cut.jpg" alt="Logo de Mi Sitio Web">  </a>
+            <b style="text-align: left; font-size: 12px; color: #ffffff; ">2024. Centro Universitario de Tonala.</b>
+             
+           
+      
+        </div>
+    </footer>
+     <script src="js/instruc.js"></script>
+    <script src="js/rompecab.js"></script>
+  </body>
+</html>
+
+
+ 

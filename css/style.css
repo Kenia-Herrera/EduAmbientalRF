@@ -1,0 +1,153 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    background-image: url('OIG5.jpeg');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: black;
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+#contenedor {
+    
+    padding: 90px;
+    float: left;
+    margin: 20px 20px;
+}
+
+#contenedor div {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+#contenedor .letra {
+    height: 50px;
+    width: 50px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 0;
+    font: 1em sans-serif;
+    
+    
+}
+
+#contenedor .selected {
+    background-color: rgb(26, 123, 23);
+     
+}
+
+#contenedor:hover .selected:hover {
+    background-color: rgb(114, 171, 40);
+    font-weight: bold;
+}
+
+#contenedor>div>button:hover {
+    background-color: rgb(145, 255, 0);
+    font-weight: bold;
+}
+
+#contenedor .found {
+    background-color: #510e61;
+    color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    text-shadow: 0px 2px 3px #000;
+}
+
+#contenedor .found:hover {
+    background-color:rgb(48, 104, 51);
+    font-weight: bold;
+    
+}
+
+
+#contenedor .solved {
+    background-color: rgb(81, 118, 173);
+    color: white;
+}
+
+
+
+#contenedor .complete {
+    background-color: green;
+   
+}
+
+#palabras-sopadeletras {
+    padding-top: 50px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    width: 400px;
+}
+
+#palabras-sopadeletras ul {
+    list-style-type: none;
+}
+
+#palabras-sopadeletras li {
+    padding: 20px 0;
+    font: 1em sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+#palabras-sopadeletras .palabraEncontrada {
+    text-decoration: line-through;
+    color: rgb(24, 64, 21);
+}
+
+
+#BTNrefresh {
+    position: absolute;
+    bottom: 7em;
+    left: 750px;
+}
+
+#BTNresolver {
+    bottom: 7em;
+    position: absolute;
+    left: 1000px;
+}
+
+
+.titulo {
+    display: inline-block;
+    padding: 10px;
+    font: normal 48px/normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: normal;
+    text-align: center;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 
+                 0 0 20px rgba(255, 255, 255, 1), 
+                 0 0 30px rgba(255, 255, 255, 1), 
+                 0 0 40px green, 
+                 0 0 70px #0e4320, 
+                 0 0 80px rgb(28, 79, 28), 
+                 0 0 100px  rgb(13, 59, 13);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    position: absolute;
+    top: 1em;
+}
+
+.titulo:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1), 
+                 0 0 20px rgba(255, 255, 255, 1), 
+                 0 0 30px rgba(255, 255, 255, 1), 
+                 0 0 40px #00ffff, 
+                 0 0 70px #00ffff, 
+                 0 0 80px #00ffff, 
+                 0 0 100px #00ffff;
+}

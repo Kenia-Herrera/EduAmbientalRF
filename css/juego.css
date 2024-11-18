@@ -1,0 +1,111 @@
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image:url('fondo.jpg');
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+  animation: fadein 5s;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40 h1 {
+  font-size: 30px;
+  color: #545454;
+  text-align: center;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #dfdfdf;
+  padding: 30px;
+  color: #000;
+}
+
+.col-60 {
+  background: #FFFFFF;
+
+}
+
+#flecha{
+  font-size: 60px;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+/* Acá empiezo yo*/
+#juego{
+  background:#FFFFFF;
+  width: 600px;
+  height: 600px;
+  margin-top: 1px;
+  margin-left: 2px;
+}
+.piezas-rompecabezas{ 
+  float: left;
+  height: 199px;
+  width: 199px;
+}
+.imagen-rompecabeza{
+  width: 100%;
+  height: 199px;
+}
+
+h2{
+  color: #545454;
+  font-size: 20px;
+  text-align: left;
+}
+#footer{
+  background:#c3c3be;
+  text-align: center;
+}
+#objetivo{
+  text-align: center;
+  
+}
+
+.imagen-objetivo{
+  background-color: white;
+  width: 50%;
+}
+.ventanaEmergente{
+  text-align: start;
+  margin-left: 20px;
+  
+}
+.titulo-emergente{
+  color: red;
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.parrafo-emergente{
+  color:rgb(34, 34, 94);
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

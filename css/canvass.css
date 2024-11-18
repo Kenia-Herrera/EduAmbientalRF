@@ -1,0 +1,24 @@
+body{
+     width: 940px;
+     margin: 5% auto;
+  min-height: 100%;
+    background-image:url('Extincion.jpg'); 
+    background-size: cover;
+   
+    padding:0; 
+    font-family: Arial, sans-serif;
+}
+
+span{color:#000;}
+
+div#content{margin-top:10px;}
+
+div#conf{padding:10px;}
+
+table{border:2px solid green; box-shadow:1px 1px 8px #00e800,-1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800; -webkit-box-shadow:1px 1px 8px #00e800,-1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800; border-collapse:collapse;}
+
+td.pieza{background-image:url('10.jpg'); transition:.3s ease-in-out; -moz-transition:.3s ease-in-out; -webkit-transition:.3s ease-in-out; -o-transition:.3s ease-in-out; cursor:pointer;}
+
+
+div#titulo{color:#000; font-size:30px; font-weight:bold; text-shadow:1px 1px 8px #00e800, -1px -1px 8px #00e800, 1px -1px 8px #00e800, -1px 1px 8px #00e800;}
+
